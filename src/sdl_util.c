@@ -103,7 +103,7 @@ SDL_Surface * Sdl_Init(int argc, char ** argv)
 	
 	/* Test des arguments */
 	videoflags = SDL_SWSURFACE|SDL_ANYFORMAT;
-	video_bpp = 8;
+	video_bpp = 32;
 	while ( argc > 1 ) {
 		--argc;
 		if ( strcmp(argv[argc-1], "--bpp") == 0 ) {
